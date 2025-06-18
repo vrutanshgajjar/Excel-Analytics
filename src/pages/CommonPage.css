@@ -1,0 +1,19 @@
+.page-wrapper {
+    text-align: center;
+    padding: 4rem 2rem;
+    background: white;
+    border-radius: 12px;
+    border: 1px solid #e5e7eb;
+  }
+  
+  .page-wrapper h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.75rem;
+    color: #1f2937;
+  }
+  
+  .page-wrapper p {
+    font-size: 1rem;
+    color: #6b7280;
+  }
+  

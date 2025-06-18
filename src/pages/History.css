@@ -1,0 +1,31 @@
+.history {
+    padding: 1rem;
+    background: white;
+    border-radius: 12px;
+  }
+  
+  .history h2 {
+    margin-bottom: 1rem;
+  }
+  
+  .history-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .history-table th, .history-table td {
+    padding: 0.75rem;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .completed {
+    color: green;
+    font-weight: bold;
+  }
+  
+  .processing {
+    color: orange;
+    font-weight: bold;
+  }
+  

@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f8fafc;
+    color: #1f2937;
+  }
+  
+  .app {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .app-body {
+    display: flex;
+    flex: 1;
+  }
+  
+  .app-main {
+    flex: 1;
+    padding: 1rem 2rem;
+    background: #f3f4f6;
+  }
+  /* Base Light Theme */
+body {
+    background-color: #f8fafc;
+    color: #1f2937;
+    transition: background-color 0.4s ease, color 0.4s ease;
+  }
+  
+  /* Dark Mode Overrides */
+  body.dark-mode {
+    background-color: #0f172a;
+    color: #f1f5f9;
+  }
+  
+  /* Panel Elements */
+  body.dark-mode .dashboard-section,
+  body.dark-mode .settings-container,
+  body.dark-mode .page-wrapper,
+  body.dark-mode .upload {
+    background-color: #1e293b;
+    border-color: #334155;
+    color: #f1f5f9;
+  }
+  
+  /* Inputs & fields */
+  body.dark-mode input,
+  body.dark-mode .form-group input,
+  body.dark-mode .checkbox-group label {
+    background-color: #334155;
+    color: #f1f5f9;
+    border-color: #475569;
+  }
+  
+  body.dark-mode input::placeholder {
+    color: #cbd5e1;
+  }
+  
+  body.dark-mode .save-btn {
+    background: linear-gradient(to right, #6366f1, #8b5cf6);
+  }
+  
+  body.dark-mode .reset-btn {
+    background: #334155;
+    color: #f1f5f9;
+  }
+  
